@@ -81,8 +81,25 @@
         &:hover .trigger {
             display: block;
             float: right;
-            padding-bottom: 5px;
-            background: $grey-color-dark;
+//            border-bottom: 1px solid $grey-color-light;
+            margin-right: 0;
+            padding: 0px 5px 5px 5px;
+            background: $background-color;
+
+// Add the border to the hamburger menu
+
+            -webkit-border-bottom-right-radius: 0.25em;
+            -webkit-border-bottom-left-radius: 0.25em;
+            -webkit-border-top-left-radius: 0.25em;
+
+            -moz-border-radius-bottomright: 0.25em;
+            -moz-border-radius-bottomleft: 0.25em;
+            -moz-border-radius-topleft: 0.25em;
+
+            border-bottom-right-radius: 0.25em;
+            border-bottom-left-radius: 0.25em;
+            border-top-left-radius: 0.25em; 
+
         }
 
         .page-link {

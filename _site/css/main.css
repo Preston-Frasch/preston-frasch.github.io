@@ -68,12 +68,16 @@ img {
   transition-duration: 0.5s; }
   .nav-button:not(:last-child) {
     margin-right: 0.7em; }
+  @media screen and (max-width: 600px) {
+    .nav-button:not(:last-child) {
+      margin-right: 0em; } }
 
 .nav-button-current {
   background-color: #006488; }
 
 .nav-button:hover {
-  background-color: #0085aa; }
+  background-color: #0085aa;
+  cursor: pointer; }
 
 .nav-button:active {
   background-color: #007488; }
@@ -85,6 +89,9 @@ img {
   height: 49px;
   margin-right: 0.7em;
   z-index: 1; }
+  @media screen and (max-width: 600px) {
+    .dropdown-menu {
+      margin-right: 0em; } }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -261,14 +268,16 @@ pre {
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  /**    padding-right: $spacing-unit;
+  *    padding-left: $spacing-unit;
+  */ }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      /**        padding-right: $spacing-unit / 2;
+      *          padding-left: $spacing-unit / 2;
+      */ } }
 
 /**
  * Clearfix
@@ -351,8 +360,18 @@ pre {
       .site-nav:hover .trigger {
         display: block;
         float: right;
-        padding-bottom: 5px;
-        background: #424242; }
+        margin-right: 0;
+        padding: 0px 5px 5px 5px;
+        background: #fdfdfd;
+        -webkit-border-bottom-right-radius: 0.25em;
+        -webkit-border-bottom-left-radius: 0.25em;
+        -webkit-border-top-left-radius: 0.25em;
+        -moz-border-radius-bottomright: 0.25em;
+        -moz-border-radius-bottomleft: 0.25em;
+        -moz-border-radius-topleft: 0.25em;
+        border-bottom-right-radius: 0.25em;
+        border-bottom-left-radius: 0.25em;
+        border-top-left-radius: 0.25em; }
       .site-nav .page-link {
         display: block;
         padding: 5px 10px;
@@ -631,12 +650,16 @@ pre {
   max-width: 80%;
   height: 3em;
   margin: 1.5em auto; }
+  @media screen and (max-width: 600px) {
+    #love-comes-down-text {
+      width: 15em; } }
 
 .love-comes-down-text-element:not(:first-child) {
   margin-right: 1em; }
 @media screen and (max-width: 600px) {
   .love-comes-down-text-element {
-    margin-left: 17%;
+    margin-left: 14%;
+    margin-right: 0em;
     margin-bottom: 1.5em;
     float: left; }
     .love-comes-down-text-element:not(:last-child) {

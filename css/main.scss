@@ -75,6 +75,9 @@ $on-laptop:        800px;
     max-width: 80%;
     height: 3em;
     margin: 1.5em auto;
+    @include media-query($on-palm){
+        width: 15em;
+    }
 }
 
 .love-comes-down-text-element {
@@ -82,7 +85,8 @@ $on-laptop:        800px;
         margin-right: 1em;
     }
     @include media-query($on-palm){
-        margin-left: 17%;
+        margin-left: 14%;
+        margin-right: 0em;
         margin-bottom: 1.5em;
         float: left;
         &:not(:last-child) {
