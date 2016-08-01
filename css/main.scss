@@ -77,6 +77,21 @@ $on-laptop:        800px;
     margin: 1.5em auto;
 }
 
+.love-comes-down-text-element {
+    &:not(:first-child) {
+        margin-right: 1em;
+    }
+    @include media-query($on-palm){
+        margin-left: 17%;
+        margin-bottom: 1.5em;
+        float: left;
+        &:not(:last-child) {
+            clear: right;
+        }
+
+    }
+}
+
 #player {
   height: 0;
   width: 0;

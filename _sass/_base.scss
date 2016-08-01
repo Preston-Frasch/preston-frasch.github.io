@@ -37,6 +37,10 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    @include media-query($on-palm) {
+    background: url(./love-comes-down-song-background-600px.jpg) center top no-repeat fixed;
+    }
 }
 
 /**
