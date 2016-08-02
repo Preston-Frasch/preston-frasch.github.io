@@ -54,6 +54,10 @@ $on-laptop:        800px;
 
 // page elements and CSS not related to layout of site or basic attributes are listed here
 
+.vanish {
+    display: none;
+}
+
 #song-bird-welcome {
     background-image: url(song-bird-welcome.jpg);
     background-repeat: no-repeat;
@@ -153,23 +157,22 @@ $on-laptop:        800px;
 
 #book-container {
     width: 100%;
-    height: 54em;
+    height: 36em;
 }
 
 #book-wrapper {
-    width: 16em;
-    height: 24em;
-    margin: auto;
+    width: 12em;
+    height: 18em;
+    margin: 2em auto;
 }
 
 #book {
     display: block;
-    float: left;
     background-image: url(book.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    width: 16em;
-    height: 24em;
-    margin: 1em 1em 1em 1em;
+    width: 12em;
+    height: 18em;
+    margin: auto;
     border-radius: 0.5em;   
 }
