@@ -1,3 +1,14 @@
+@font-face {
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigRoman.ttf); }
+@font-face {
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigItalic.ttf);
+  font-style: italic; }
+@font-face {
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigBold.ttf);
+  font-weight: bold; }
 /**
  * Reset some basic elements
  */
@@ -11,7 +22,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background: url("./love-comes-down-general-background.jpg") center bottom/cover no-repeat fixed;
   -webkit-text-size-adjust: 100%;
@@ -22,7 +33,7 @@ body {
   font-kerning: normal; }
 
 .song-body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   height: 100%;
   color: #111;
@@ -61,6 +72,7 @@ img {
   color: white;
   border: none;
   border-radius: 0.25em;
+  font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   width: 8.625em;
   padding: 0.75em 2em;
@@ -76,7 +88,7 @@ img {
   background-color: #006488; }
 
 .nav-button:hover {
-  background-color: #0085aa;
+  background-color: #004671;
   cursor: pointer; }
 
 .nav-button:active {
@@ -103,7 +115,7 @@ img {
   width: 8.625em;
   overflow: auto;
   line-height: 2.625em;
-  top: 49px; }
+  top: 48px; }
 
 /* removes bottom border radius from nav buttons */
 .dropdown-remove-radius:hover {
@@ -142,7 +154,7 @@ img {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown-menu:hover .nav-button {
-  background-color: #0085aa;
+  background-color: #004671;
   -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomright: 0;
@@ -156,14 +168,15 @@ img {
   color: white;
   border: none;
   outline: 0;
-  font-size: 1.25em;
-  padding: 1.5em 0.5em;
+  font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  padding: .9em 0em;
   border-radius: 0.25em;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  width: 12em;
+  width: 10em;
   display: block;
-  margin: auto;
+  margin: 3em auto 0em auto;
   box-shadow: 0 0.3em #888; }
 
 .book-button {
@@ -172,14 +185,15 @@ img {
   color: white;
   border: none;
   outline: 0;
-  font-size: 1.25em;
-  padding: 1.5em 2em;
+  font-size: 2em;
+  text-align: center;
+  padding: .9em 0em;
   border-radius: 0.25em;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  width: 7em;
+  width: 8em;
   display: block;
-  margin: 3em auto;
+  margin: 2em auto;
   box-shadow: 0 0.3em #888; }
   .book-button:hover {
     text-decoration: none;
@@ -668,8 +682,8 @@ pre {
   height: 6em; }
 
 #love-comes-down-text {
-  width: 29em;
-  max-width: 80%;
+  width: 42em;
+  max-width: 42em;
   height: 3em;
   margin: 1.5em auto; }
   @media screen and (max-width: 600px) {
@@ -680,7 +694,7 @@ pre {
   margin-right: 1em; }
 @media screen and (max-width: 600px) {
   .love-comes-down-text-element {
-    margin-left: 14%;
+    margin-left: 0;
     margin-right: 0em;
     margin-bottom: 1.5em;
     float: left; }

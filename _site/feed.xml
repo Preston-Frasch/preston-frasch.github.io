@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Love Comes Down</title>
+    <description>Love Comes Down is a children&#39;s book written by Natasha Frasch and illustrated by Avery Mefford. Site design by Preston Frasch.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Aug 2016 18:08:57 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2016 18:08:57 -0400</lastBuildDate>
+    <link>http://lovecomesdown.org/</link>
+    <atom:link href="http://lovecomesdown.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Aug 2016 13:10:43 -0400</pubDate>
+    <lastBuildDate>Wed, 10 Aug 2016 13:10:43 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -18,8 +18,8 @@
 
 </description>
         <pubDate>Mon, 01 Aug 2016 04:33:33 -0400</pubDate>
-        <link>http://yourdomain.com/elder/care/inspiration/2016/08/01/on-inspiring-oneself.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/elder/care/inspiration/2016/08/01/on-inspiring-oneself.html</guid>
+        <link>http://lovecomesdown.org/elder/care/inspiration/2016/08/01/on-inspiring-oneself.html</link>
+        <guid isPermaLink="true">http://lovecomesdown.org/elder/care/inspiration/2016/08/01/on-inspiring-oneself.html</guid>
         
         
         <category>elder</category>
@@ -37,8 +37,8 @@
 &lt;p&gt;Four years ago, I wrote a short song called Love Comes Down.  One of my dearest friends, Avery Mefford, spent hours and hours illustrating vibrant scenes and characters, bringing the words to life.  Between getting married, adopting a daughter, and the many things life brings, we have been slowly, slowly plugging away at the next step which is getting published.  There are a surprisingly number of steps and discouragement seems to lurk around each corner.  That being said, in embarking on this project, a great number of gifts have already been given.  The cure for finishitis, I suspect will in the end be gratitude–gratitude to Avery, the many people who are helping this project, and, of course, to God who delights in using small things and weak people to show His faithfulness and love.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Jul 2016 20:00:27 -0400</pubDate>
-        <link>http://yourdomain.com/getting/finished/2016/07/28/getting-finished-to-get-started.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/getting/finished/2016/07/28/getting-finished-to-get-started.html</guid>
+        <link>http://lovecomesdown.org/getting/finished/2016/07/28/getting-finished-to-get-started.html</link>
+        <guid isPermaLink="true">http://lovecomesdown.org/getting/finished/2016/07/28/getting-finished-to-get-started.html</guid>
         
         
         <category>getting</category>
