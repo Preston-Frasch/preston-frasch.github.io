@@ -39,7 +39,7 @@ body {
     font-kerning: normal;
 
     @include media-query($on-palm) {
-    background: url(./love-comes-down-song-background-600px.jpg) center top no-repeat fixed;
+    background: url(./love-comes-down-song-background-600px-backup.jpg) center top no-repeat fixed;
     }
 }
 
@@ -199,8 +199,11 @@ img {
     transition-duration: 0.5s;
     width: 10em;
     display: block;
-    margin: 3em auto 0em auto;
+    margin: 1.55em auto 0em auto;
     box-shadow: 0 0.3em #888;
+    @include media-query($on-palm){
+        margin-top: .85em;
+    }
 }
 
 .book-button {
