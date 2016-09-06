@@ -240,27 +240,44 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+    p {
+        padding: 0px  48px;
+        @include media-query($on-palm) {
+            padding: 0px 0px;
+        }
+    }
+
+    h1 {
+        padding: 0px 48px;
+        @include media-query($on-palm) {
+            padding: 0px 0px;
+        }
+    }
+
     h2 {
         font-size: 32px;
-
+        padding: 0px;
         @include media-query($on-laptop) {
             font-size: 28px;
+            padding: 0px 3em;
         }
     }
 
     h3 {
         font-size: 26px;
-
+            padding: 0px;
         @include media-query($on-laptop) {
             font-size: 22px;
+            padding: 0px 3em;
         }
     }
 
     h4 {
         font-size: 20px;
-
+        padding: 0px;
         @include media-query($on-laptop) {
             font-size: 18px;
+            padding: 0px 3em;
         }
     }
 }
