@@ -6,22 +6,25 @@
 //friends da vinci font used for banner image
 //St Eaves Smart Lig used for font throughout
 
+
+/**
 @font-face {
-    font-family: MrsEavesSmartLig;
-    src: url(MrsEavesSmartLigRoman.ttf); 
-}
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigRoman.ttf); }
+@font-face {
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigItalic.ttf);
+  font-style: italic; }
+@font-face {
+  font-family: MrsEavesSmartLig;
+  src: url(MrsEavesSmartLigBold.ttf);
+  font-weight: bold; }
+  */
 
 @font-face {
-    font-family: MrsEavesSmartLig;
-    src: url(MrsEavesSmartLigItalic.ttf);
-    font-style: italic; 
-}
+font-family: 'Source Serif Pro', serif;
+ }
 
-@font-face {
-    font-family: MrsEavesSmartLig;
-    src: url(MrsEavesSmartLigBold.ttf); 
-    font-weight: bold;
-}
 
 // Our variables
 $base-font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
