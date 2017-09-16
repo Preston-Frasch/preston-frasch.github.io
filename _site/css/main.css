@@ -1,3 +1,4 @@
+/**
 @font-face {
   font-family: MrsEavesSmartLig;
   src: url(MrsEavesSmartLigRoman.ttf); }
@@ -9,6 +10,9 @@
   font-family: MrsEavesSmartLig;
   src: url(MrsEavesSmartLigBold.ttf);
   font-weight: bold; }
+  */
+@font-face {
+  font-family: 'Source Serif Pro', serif; }
 /**
  * Reset some basic elements
  */
@@ -22,7 +26,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Source Serif Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background: url("./love-comes-down-general-background.jpg") center bottom/cover no-repeat fixed;
   -webkit-text-size-adjust: 100%;
@@ -33,7 +37,7 @@ body {
   font-kerning: normal; }
 
 .song-body {
-  font: 400 16px/1.5 MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Source Serif Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   height: 100%;
   color: #111;
@@ -72,7 +76,7 @@ img {
   color: white;
   border: none;
   border-radius: 0.25em;
-  font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Serif Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   width: 8.625em;
   padding: 0.75em 2em;
@@ -168,7 +172,7 @@ img {
   color: white;
   border: none;
   outline: 0;
-  font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Serif Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
   padding: .9em 0em;
   border-radius: 0.25em;
@@ -201,6 +205,10 @@ img {
   .book-button:hover {
     text-decoration: none;
     color: white; }
+  @media screen and (max-width: 600px) {
+    .book-button {
+      margin-top: .5em;
+      padding: .25em 0em; } }
 
 .song-button:hover {
   background-color: #366b48;
@@ -357,7 +365,7 @@ pre {
     color: #424242; }
 
 .site-nav {
-  max-width: 37.5em;
+  max-width: 600px;
   margin: auto;
   line-height: 56px; }
   .site-nav .menu-icon {
@@ -709,8 +717,8 @@ pre {
   width: 100%;
   line-height: 110%;
   text-align: center;
-  font-size: 88px;
-  font-family: MrsEavesSmartLig, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-size: 81px;
+  font-family: "Source Serif Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   @media screen and (max-width: 600px) {
     #love-comes-down-banner {
       text-align: left; } }
@@ -749,11 +757,18 @@ pre {
 #portrait-container {
   width: 100%;
   height: 20em; }
+  @media screen and (max-width: 600px) {
+    #portrait-container {
+      height: 18em; } }
 
 #portrait-wrapper {
   width: 38em;
   height: 20em;
   margin: auto; }
+  @media screen and (max-width: 600px) {
+    #portrait-wrapper {
+      width: 100%;
+      height: 18em; } }
 
 #portrait {
   display: block;
@@ -764,26 +779,47 @@ pre {
   height: 17em;
   margin: 1em 1em 1em 1em;
   border-radius: 0.5em; }
+  @media screen and (max-width: 600px) {
+    #portrait {
+      margin: 1em auto 1em auto;
+      float: none; } }
 
+@media screen and (max-width: 600px) {
+  #portrait:nth-child(2) {
+    width: 0em;
+    height: 0em;
+    display: none; } }
 .author-picture {
   background-image: url(author.jpg); }
 
 .young-author-picture {
   background-image: url(young-author.jpg); }
+  @media screen and (max-width: 600px) {
+    .young-author-picture {
+      display: none;
+      background-image: none;
+      width: 0em;
+      height: 0em; } }
 
 .artist-picture {
   background-image: url(artist.jpg); }
 
 .young-artist-picture {
   background-image: url(young-artist.jpg); }
+  @media screen and (max-width: 600px) {
+    .young-artist-picture {
+      display: none;
+      background-image: none;
+      width: 0em;
+      height: 0em; } }
 
 #book-container {
   width: 100%;
-  height: 36em; }
+  height: 41em; }
 
 #book-wrapper {
-  width: 12em;
-  height: 18em;
+  width: 18em;
+  height: 27em;
   margin: 2em auto; }
 
 #book {
@@ -791,7 +827,7 @@ pre {
   background-image: url(book.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  width: 12em;
-  height: 18em;
+  width: 18em;
+  height: 27em;
   margin: auto;
   border-radius: 0.5em; }

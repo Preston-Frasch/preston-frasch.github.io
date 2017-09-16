@@ -227,6 +227,10 @@ img {
         text-decoration: none;
         color: white;
     }
+    @include media-query($on-palm){
+        margin-top: .5em;
+        padding: .25em 0em;
+    }
 }
 
 .song-button:hover {
